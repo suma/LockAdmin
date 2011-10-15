@@ -63,6 +63,10 @@ public class SettingActivity extends PreferenceActivity {
 			}
 		});
 
+		// For initial selected item at listbox
+		if (mDelayList.getEntry() == null) {
+			mDelayList.setValueIndex(0);
+		}
 		updateDelaySummary();
     }
 
@@ -102,9 +106,9 @@ public class SettingActivity extends PreferenceActivity {
 		if (requestCode == RESULT_ENABLE) {
 			if (resultCode == Activity.RESULT_OK && mDevicePolicyManager.isAdminActive(mDeviceAdmin)) {
 				mAdminActivated = true;
-				Log.d(TAG, "Successed: Administration activation");
+				Log.d(TAG, "SUCCESSFUL: Administration activation");
 			} else {
-				Log.d(TAG, "FAILED: Administration activation");
+				Log.d(TAG, "FAILURE: Administration activation");
 				mDelayEnableCheckbox.setChecked(false);
 			}
 			return;
