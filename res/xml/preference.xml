@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference
+		android:key="delay_enable"
+		android:title="@string/pref_delay_enable"
+		android:summary="@string/pref_delay_enable_summary"
+		/>
+	<ListPreference
+		android:key="delay_time"
+		android:title="@string/pref_delay_time"
+		android:dependency="delay_enable"
+		android:entries="@array/delay_entries"
+		android:entryValues="@array/delay_entryvalues"
+		/>
+</PreferenceScreen>

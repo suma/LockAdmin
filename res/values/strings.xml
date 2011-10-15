@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">LockAdmin</string>
-	<string name="device_admin">test1</string>
-	<string name="device_admin_description">test2</string>
+	<string name="device_admin_description">Change lock delay.</string>
+
+	<string name="pref_delay_enable">Lock delay</string>
+	<string name="pref_delay_enable_summary">Enable lock delay</string>
+	<string name="pref_delay_time">Lock delay</string>
+	<string name="pref_delay_time_summary">Device will lock after %1$s</string>
+
+	<string name ="delay_10sec">10 seconds</string>
+	<string name ="delay_30sec">30 seconds</string>
+	<string name ="delay_1min">1 minute</string>
+	<string name ="delay_5min">5 minutes</string>
+	<string name ="delay_15min">15 minutes</string>
 </resources>

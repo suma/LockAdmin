@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LockAdmin</string>
+	<string name="device_admin_description">ロックタイムアウトの変更</string>
+
+	<string name="pref_delay_enable">ロックタイムアウト</string>
+	<string name="pref_delay_enable_summary">ロックタイムアウトの有効</string>
+	<string name="pref_delay_time">タイムアウト</string>
+	<string name="pref_delay_time_summary">%1$s後にデバイスをロック</string>
+	<string name="pref_delay_second">秒</string>
+	<string name="pref_delay_minute">分</string>
+
+	<string name ="delay_10sec">10 秒</string>
+	<string name ="delay_30sec">30 秒</string>
+	<string name ="delay_1min">1 分</string>
+	<string name ="delay_5min">5 分</string>
+	<string name ="delay_15min">15 分</string>
+</resources>

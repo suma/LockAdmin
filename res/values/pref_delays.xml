@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="delay_entries">
+        <item>@string/delay_10sec</item>
+        <item>@string/delay_30sec</item>
+        <item>@string/delay_1min</item>
+		<item>@string/delay_5min</item>
+		<item>@string/delay_15min</item>
+    </string-array>
+    <string-array name="delay_entryvalues">
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+		<item>300000</item>
+		<item>900000</item>
+    </string-array>
+</resources>
