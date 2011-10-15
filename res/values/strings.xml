@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LockAdmin</string>
+	<string name="device_admin">test1</string>
+	<string name="device_admin_description">test2</string>
+</resources>
