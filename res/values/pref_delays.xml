@@ -6,6 +6,7 @@
         <item>@string/delay_1min</item>
 		<item>@string/delay_5min</item>
 		<item>@string/delay_15min</item>
+		<item>@string/delay_30min</item>
     </string-array>
     <string-array name="delay_entryvalues">
         <item>10000</item>
@@ -13,5 +14,6 @@
         <item>60000</item>
 		<item>300000</item>
 		<item>900000</item>
+		<item>1800000</item>
     </string-array>
 </resources>

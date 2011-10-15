@@ -13,4 +13,5 @@
 	<string name ="delay_1min">1 minute</string>
 	<string name ="delay_5min">5 minutes</string>
 	<string name ="delay_15min">15 minutes</string>
+	<string name ="delay_30min">30 minutes</string>
 </resources>
