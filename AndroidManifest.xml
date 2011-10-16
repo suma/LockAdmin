@@ -7,7 +7,10 @@
 	<!-- Android 2.2.x(FROYO) and after -->
 	<uses-sdk android:minSdkVersion="8" />
 
-    <application android:label="@string/app_name">
+    <application android:label="@string/app_name"
+				 android:icon="@drawable/icon"
+			>
+
 
 		<!-- MainActivity -->
         <activity android:name=".SettingActivity"
