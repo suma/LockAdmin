@@ -1,4 +1,4 @@
-package com.suma.lockAdmin;
+package com.suma.lockadmin;
 
 import android.app.admin.DeviceAdminReceiver;
 import android.content.Context;
